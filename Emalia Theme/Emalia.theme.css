@@ -8,6 +8,8 @@
 * @invite U2aSmpK4Px
 */
 /* Source Code */
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
 @import url(https://trickstarcandina.github.io/emalia.css);
 /* Import any custom fonts here */
 /* recommend rehosting the image on imgur https://imgur.com/upload https://data.whicdn.com/images/350734363/original.gif */
@@ -40,4 +42,11 @@
     --user-popup-background: rgb(0, 0, 0);
     --deprecated-quickswitcher-input-background:#6d733b;
     --deprecated-quickswitcher-input-placeholder:rgb(238, 238, 232); 
+
+    --Chat-Font-Used: 'Magic Cards', normal ;
+    --Chat-Font-Size: 15.5px;
+}
+
+::-webkit-input-placeholder, body, button, input, select, textarea {
+    font-family: "Pangolin";
 }
