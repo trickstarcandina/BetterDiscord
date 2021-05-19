@@ -40,13 +40,12 @@
     --unread-text-color: #d877bb;
     /* màu user pop-up */
     --user-popup-background: rgb(0, 0, 0);
-    --deprecated-quickswitcher-input-background:#6d733b;
-    --deprecated-quickswitcher-input-placeholder:rgb(238, 238, 232); 
-
-    --Chat-Font-Used: 'Magic Cards', normal ;
-    --Chat-Font-Size: 15.5px;
+    --deprecated-quickswitcher-input-placeholder:rgb(48, 179, 22); 
+    
+    --background-secondary: #080606;
 }
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {
     font-family: "Pangolin";
 }
+
