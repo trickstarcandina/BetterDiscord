@@ -10,11 +10,9 @@
 /* Source Code */
 @import url(https://trickstarcandina.github.io/theme2.css);
 /* Import any custom fonts here */
-/* recommend rehosting the image on imgur https://imgur.com/upload https://data.whicdn.com/images/350734363/original.gif */
+/* recommend https://imgur.com/upload https://data.whicdn.com/images/350734363/original.gif */
 :root {
     /* Bắt buộc phải là đuôi .gif, .png, .jpg */  
-    /* C:\Users\minht\AppData\Roaming\BetterDiscord\themes\5_1513055747.jpg */
-    /* --background-image: url("./5_1513055747.jpg"); */
     --background-image: url(https://cdn.discordapp.com/attachments/765620139126554644/826026547746963506/image0.gif); 
     --friends-icon: url(https://static.zerochan.net/Ania.Forger.full.2903282.jpg);
     --friends-icon-position: center center;
