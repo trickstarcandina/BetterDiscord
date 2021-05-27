@@ -46,6 +46,7 @@
 }
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {
-    font-family: "Pangolin";
+    font-family: Pangolin;
+    /*font-family: Pattaya; */
 }
 
