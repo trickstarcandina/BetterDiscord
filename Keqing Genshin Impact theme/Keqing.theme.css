@@ -8,11 +8,11 @@
 * @invite U2aSmpK4Px
 */
 /* Source Code */
-@import url(https://trickstarcandina.github.io/theme2.css);
 /* Import any custom fonts here */
+@import url(https://trickstarcandina.github.io/theme2.css);
 /* recommend https://imgur.com/upload https://data.whicdn.com/images/350734363/original.gif */
 :root {
-    /* Bắt buộc phải là đuôi .gif, .png, .jpg */  
+    /* Bắt buộc phải là đuôi .gif, .png, .jpg  */
     --background-image: url(https://cdn.discordapp.com/attachments/765620139126554644/826026547746963506/image0.gif); 
     --friends-icon: url(https://static.zerochan.net/Ania.Forger.full.2903282.jpg);
     --friends-icon-position: center center;
@@ -20,7 +20,7 @@
     /* Màu danh mục*/
     --main-color: rgb(213, 216, 54); 
     /* màu nền nên chọn gần trong suốt để ảnh nền được nét nhất. rgba(red, green, blue, alpha) red,green,blue nên để thấp còn alpha thì 0.0 là trong suốt 100%*/
-    --main-transparency: rgba(23, 23, 23, 0.6); 
+    --main-transparency: rgba(32, 29, 29, 0.6); 
     /* Màu của những server chưa đọc. mình để rainbow thì nó sẽ đổi 7 màu sắc cầu vồng*/
     --unread-server-animation: rainbow;
     --hover-list-bg-color: rgba(255, 255, 255, .15);
@@ -33,7 +33,7 @@
     /* màu kênh lúc mình di chuột vào */
     --channel-hover-text-color: rgba(211, 24, 96, 0.75);
     /* màu những kênh mình chưa đọc */
-    --unread-text-color: #d877bb;
+    --unread-text-color: #f7f0f0;
     /* màu user pop-up */
     --user-popup-background: rgba(0, 0, 0, 0.8);
     --background-secondary: #080606;
