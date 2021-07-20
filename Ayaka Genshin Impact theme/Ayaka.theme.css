@@ -1,0 +1,50 @@
+/**
+* @name Ayaka
+* @author Trickstar#9586
+* @version 1.0
+* @description Ayaka GenshinImpact
+* @source https://github.com/trickstarcandina/BetterDiscord
+* @authorId 662508642251309057
+* @invite U2aSmpK4Px
+*/
+
+/* Source Code */
+/* Import any custom fonts here */
+@import url(https://trickstarcandina.github.io/Theme/twoColumn.css);
+/* recommend https://imgur.com/upload https://data.whicdn.com/images/350734363/original.gif */
+
+:root {
+    /* Bắt buộc phải là đuôi .gif, .png, .jpg  */
+    /* Ảnh nền */
+    --background-image: url(https://media.discordapp.net/attachments/847013454874279947/867046854629130250/unknown.png);
+    /* Ảnh Home Icon */
+    --friends-icon: url(https://media.discordapp.net/attachments/847013454874279947/867047496265498624/755.png);
+    --friends-icon-position: center center;
+    --friends-icon-zoom: 100%;
+    /* Màu của những server chưa đọc. mình để rainbow thì nó sẽ đổi 7 màu sắc cầu vồng*/
+    --unread-server-animation: rainbow;
+    /* Màu chính : selected-channel, scroll .... */
+    --main-color: rgb(57, 117, 155);     
+
+
+    /* Đây là màu rgb bạn có thể gõ rgb(32, 29, 29) trong cửa sổ này để chọn màu. */
+    /* Sau đó giữ lại 3 chỉ số và bỏ 'rgb' đi */
+    /* Màu những emoji mình đã react */
+    --main-color2:  57, 117, 155; 
+    /* Màu khi người khác mention mình */
+    --mentioncolor: 57, 117, 155;
+    /* Màu nền */
+    /* Khuyến nghị mặc định để màu giống ảnh nền nhất */
+    --accentcolor: 0, 0, 0;  /* rgb(32, 29, 29) */
+
+    /* Độ sáng tối của nền 0 -> 1 */
+    --transparencyalpha: 0.5;
+    /* Độ sáng tối của nền tin nhắn 0 -> 1 */
+    --messagetransparency: 0.7;
+    /* Độ sáng tối của nền danh sách kênh server 0 -> 1 */
+    --guildchanneltransparency: 0.35;
+    /* Độ sáng tối của nền nhập tin nhắn 0 -> 1 */
+    --chatinputtransparency: 0.0;
+    /* Độ sáng tối của nền danh sách member server 0 -> 1 */
+    --memberlisttransparency: 0.0;
+}
