@@ -37,6 +37,9 @@
     /* Khuyến nghị mặc định để màu giống ảnh nền nhất */
     --accentcolor: 0, 0, 0;  /* rgb(32, 29, 29) */
 
+    /* màu khi mình di chuột vào ví dụ như khi di chuyển vào icon server list */
+    --hover-color: rgb(0,0,0);
+
     /* Độ sáng tối của nền 0 -> 1 */
     --transparencyalpha: 0.5;
     /* Độ sáng tối của nền tin nhắn 0 -> 1 */
