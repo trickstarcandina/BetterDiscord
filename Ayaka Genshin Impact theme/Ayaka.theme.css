@@ -12,6 +12,7 @@
 /* Import any custom fonts here */
 @import url(https://trickstarcandina.github.io/Theme/twoColumn.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
+/* @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap'); */
 /* recommend https://imgur.com/upload https://data.whicdn.com/images/350734363/original.gif */
 
 :root {
@@ -52,3 +53,7 @@
     /* Độ sáng tối của nền danh sách member server 0 -> 1 */
     --memberlisttransparency: 0.0;
 }
+
+/* ::-webkit-input-placeholder, body, button, input, select, textarea {
+    font-family: Pangolin;
+} */
