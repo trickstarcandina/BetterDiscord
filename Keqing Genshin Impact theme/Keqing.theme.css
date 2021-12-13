@@ -61,7 +61,7 @@
     --video-screen-button-background-hovor-color: rgba(200, 200, 200, 0.4);
     --video-screen-button-foreground-hovor-color: white;
     /*Role Title Color*/
-    --member-listing-role-color: var(--main-theme-color);
+    --member-listing-role-color: var(--main-color);
     /*Small User Popout*/
     --small-user-popout-background-image: var(--theme-background-image);
     --small-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
@@ -111,7 +111,7 @@
     --text-voice-channel-hover-color: #dcddde;
     --text-voice-channel-selected-text-color: #fff;
     --unread-text-channel-color: #fff;
-    --unread-text-channel-bubble-color: var(--main-theme-color);
+    --unread-text-channel-bubble-color: var(--main-color);
     /*Folders*/
     --folder-background-color: #2f3136;
     --expanded-folder-background-color: transparent;
